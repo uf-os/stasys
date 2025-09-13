@@ -132,20 +132,20 @@
 
 If you're already on Silverblue, Bluefin, Kinoite, Bazzite, Aurora, or the like:
 
-    rpm-ostree rebase ostree-unverified-registry:ghcr.io/megalisp/stasys:latest
+    rpm-ostree rebase ostree-unverified-registry:ghcr.io/uf-os/stasys:latest
 
 
 ## OR
 
 ### Try in a container
 
-    podman run --rm -it ghcr.io/megalisp/stasys:latest bash
+    podman run --rm -it ghcr.io/uf-os/stasys:latest bash
 
 ## Preferably,
 ### Run it via distrobox
 (For just-works support for stuff like Dr.Racket)
 
-      distrobox create --name stasys --image ghcr.io/megalisp/stasys:latest
+      distrobox create --name stasys --image ghcr.io/uf-os/stasys:latest
       distrobox enter stasys
 
 
@@ -159,13 +159,13 @@ Note: We don't have a good way to launch the full graphical-environment from the
 
 ## 🌟 Related Projects
 
-&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**gundwm**](https://github.com/megalisp/gundwm)  
+&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**gundwm**](https://github.com/uf-os/gundwm)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opinionated Hyprland-Config For Stasys x Godot.
 
-&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**strats**](https://github.com/megalisp/strats)  
+&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**strats**](https://github.com/uf-os/strats)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misc Tools For Stasys; Seperate Repo To Test Things Build Extensively Before Updated In-Image.
 
-&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**cryo**](https://github.com/megalisp/cryo)  
+&nbsp;&nbsp;&nbsp;&nbsp;⭐️ [**cryo**](https://github.com/uf-os/cryo)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Is Misc Parts Of The Underlying `OS` For STASYS; The Installer, Recovery Tool, Other Misc Utils, Etc.
 
 
@@ -207,15 +207,15 @@ Note: We don't have a good way to launch the full graphical-environment from the
 
 ## 📊 Analytics
 <div align="center"> 
-  <a href="https://github.com/megalisp/statsys " title="Repobeats Analytics">
+  <a href="https://github.com/uf-os/statsys " title="Repobeats Analytics">
     <img src="https://repobeats.axiom.co/api/embed/0879406c08779ddb018fbb7dea46bd47d8504aa9.svg" alt="Repobeats analytics image" />
   </a>
 
-<a href="https://star-history.com/#megalisp/stasys&Date">
+<a href="https://star-history.com/#uf-os/stasys&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=megalisp/stasys&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=megalisp/stasys&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=megalisp/stasys&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=uf-os/stasys&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=uf-os/stasys&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=uf-os/stasys&type=Date" />
   </picture>
 </a>
 </div>
